@@ -1,0 +1,11 @@
+ssh-keygen -t ed25519 -C "ikramsaeed606@gmail.com"
+
+cat ~/.ssh/id_ed25519.pub | clip
+
+clip < ~/.ssh/id_ed25519.pub
+
+git push origin master
+
+
+
+URL Follow this link: https://github.com/CodeWith-ik
